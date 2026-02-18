@@ -9,3 +9,19 @@ git commit -m "inital commit"
 git config --global user.email"shahadeissa111@gmail.com"
 git config --global user.name"shahadeissaalharbi"
 git add
+git add .
+git commit -m "first commit"
+git config --global credential.helper 'cache --timeout=7200'
+git config --global user.email"shahadeissa111@gmail.com"
+git config --global user.name"shahadeissaalharbi"
+git commit -m "first commit"
+git config user.email"shahadeissa111@gmail.com"
+git config user.name"shahadeissaalharbi"
+git commit -m "first commit"
+git config --global user.email "shahadeissa111@gmail.com"
+git config --global user.name "shahadeissaalharbi"
+git commit -m "first commit"
+git remote add origin https://github.com/shahadeissaalharbi/my_school_project.git
+git push -u origin main
+mkdir git-intro
+mv school my_school not_here old_school ready_to_be_removed git-intro/
