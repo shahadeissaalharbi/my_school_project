@@ -25,3 +25,12 @@ git remote add origin https://github.com/shahadeissaalharbi/my_school_project.gi
 git push -u origin main
 mkdir git-intro
 mv school my_school not_here old_school ready_to_be_removed git-intro/
+git reset --hard v1
+ls
+git checkout -b feature-improvement
+echo "Some improvement" > improvement.txt
+git add improvement.txt
+git commit -m "Add improvement.txt in feature-improvement"
+git push -u origin feature-improvement
+git checkout main
+echo "Change from main" > message.txt
