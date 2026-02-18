@@ -34,3 +34,7 @@ git commit -m "Add improvement.txt in feature-improvement"
 git push -u origin feature-improvement
 git checkout main
 echo "Change from main" > message.txt
+git commit -am "Change message ib main"
+git push origin main
+git checkout feature-improvment
+echo "Change from feature branch" > message.txt
