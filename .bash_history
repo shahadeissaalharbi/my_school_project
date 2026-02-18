@@ -38,3 +38,24 @@ git commit -am "Change message ib main"
 git push origin main
 git checkout feature-improvment
 echo "Change from feature branch" > message.txt
+git commit -am "Change meesage in feature-improvment"
+git push origin feature-improvement
+git checkout main
+git pull origin main
+git config pull rebase false
+git pull orign main
+git checkout -b feature-improvement
+echo "Some improvement" > improvement.txt
+git add improvement.txt
+git commit -m "Add improvement.txt in feature-improvement"
+git push -u origin feature-improvement
+git checkout main
+echo "Change from main: > message.txt
+
+git config pull rebase false
+git status
+git config pull rebase false
+git pull origin main
+git checkout feature-improvement
+echo "Change from feature"
+echo "Change from feature branch" > message.txt
